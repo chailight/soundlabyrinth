@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+
+<pattrstorage name = "coll_pattr">
+	<slot number = "1">
+		<pattr name = "TextRepository" value = "1 2 3 4 5 6 7 8 2 3 4 5 6 7 8 9 3 4 5 6 7 8 9 10" />
+	</slot>
+	<slot number = "2">
+		<pattr name = "TextRepository" value = "11 12 13 14 15 16 17 18 12 13 14 15 16 17 18 19 13 14 15 16 17 18 19 20" />
+	</slot>
+</pattrstorage>
+

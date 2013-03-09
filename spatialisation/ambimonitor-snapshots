@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ambiscore>
+	<snapshot index="1">
+		<point>
+			<number>1</number>
+			<xyz>-0.754160 0.283601 0.320000</xyz>
+		</point>
+		<point>
+			<number>2</number>
+			<xyz>0.749159 -0.432527 0.314854</xyz>
+		</point>
+		<point>
+			<number>3</number>
+			<xyz>0.749159 0.432527 0.314854</xyz>
+		</point>
+		<point>
+			<number>4</number>
+			<xyz>-0.706667 -0.680000 0.000000</xyz>
+		</point>
+		<point>
+			<number>5</number>
+			<xyz>-0.855825 -0.565860 0.048187</xyz>
+		</point>
+		<point>
+			<number>6</number>
+			<xyz>-0.480000 -0.513333 0.866025</xyz>
+		</point>
+		<point>
+			<number>7</number>
+			<xyz>0.789199 -0.093782 0.000000</xyz>
+		</point>
+		<point>
+			<number>8</number>
+			<xyz>0.624134 -0.573782 0.000000</xyz>
+		</point>
+		<point>
+			<number>9</number>
+			<xyz>-0.584134 -0.159551 0.128187</xyz>
+		</point>
+		<point>
+			<number>10</number>
+			<xyz>0.258890 -0.890290 0.300000</xyz>
+		</point>
+		<point>
+			<number>11</number>
+			<xyz>-0.040000 -0.200000 0.500000</xyz>
+		</point>
+		<point>
+			<number>12</number>
+			<yaw>141.</yaw>
+			<pitch>0.0</pitch>
+			<xyz>0.001308 -0.123420 0.080000</xyz>
+		</point>
+		<point>
+			<number>13</number>
+			<yaw>131.</yaw>
+			<pitch>0.0</pitch>
+			<xyz>-0.715446 0.702095 0.116952</xyz>
+		</point>
+		<point>
+			<number>14</number>
+			<yaw>-135.</yaw>
+			<pitch>0.0</pitch>
+			<xyz>0.711239 0.702260 0.130285</xyz>
+		</point>
+		<point>
+			<number>15</number>
+			<yaw>61.</yaw>
+			<pitch>0.0</pitch>
+			<xyz>-0.911074 -0.395428 0.116952</xyz>
+		</point>
+		<point>
+			<number>16</number>
+			<yaw>-65.</yaw>
+			<pitch>0.0</pitch>
+			<xyz>0.902095 -0.382113 0.196952</xyz>
+		</point>
+	</snapshot>
+</ambiscore>

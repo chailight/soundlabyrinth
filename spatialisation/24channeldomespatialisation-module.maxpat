@@ -28,6 +28,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 965.537354, 614.0, 109.0, 20.0 ],
+					"text" : "r journey_recorder"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -55,7 +69,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 1358.0, 85.0, 1306.0, 727.0 ],
+						"rect" : [ 1506.0, 70.0, 1306.0, 727.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -731,7 +745,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 710.0, 313.0, 167.0, 25.0 ],
-									"text" : "loaded 2479 units in 1 sound files of 10. min using 100.93689 MB RAM"
+									"text" : "loaded 9919 units in 4 sound files of 40. min using 403.747559 MB RAM"
 								}
 
 							}
@@ -2330,7 +2344,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1096.0, 576.0, 549.0, 186.0 ],
-					"text" : "todo:\n2. apply gesture tracking to journey buffer\n2.1 - incorporate CataRT, working off journey buffer - done\n2.2 - trigger recording on and off based on synth zone threshold\n2.3 - control point selection via gestural input\n2.3.1 - get x & y coords from hands\n2.3.2 - limit selection based on energy level of gesture??\n2.3.3 - control grain size, volume on other gesture / posture controls (z position, torso height???)\n2.3.4 - spatialisation of resultant sound?\n2.3.4.1 - sound travels following gestural trajectory - bounces around / fades\n2.3.5 - any other effects? \n    \n3. add gesture agent"
+					"text" : "todo:\n2. apply gesture tracking to journey buffer\n2.1 - incorporate CataRT, working off journey buffer - done\n2.2 - trigger recording on and off based on synth zone threshold - done\n2.3 - control point selection via gestural input\n2.3.1 - get x & y coords from hands\n2.3.2 - limit selection based on energy level of gesture??\n2.3.3 - control grain size, volume on other gesture / posture controls (z position, torso height???)\n2.3.4 - spatialisation of resultant sound?\n2.3.4.1 - sound travels following gestural trajectory - bounces around / fades\n2.3.5 - any other effects? \n    \n3. add gesture agent"
 				}
 
 			}
@@ -10866,7 +10880,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -27848,7 +27862,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 1192.0, 665.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -30113,7 +30127,7 @@
 											}
 , 											{
 												"key" : 10,
-												"value" : [ 0.623194, 0.858342, 0.80221, 1 ]
+												"value" : [ 0.616022, 0.863867, 0.80221, 1 ]
 											}
 , 											{
 												"key" : 11,
@@ -31108,7 +31122,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 355.0, 44.0, 1023.0, 628.0 ],
+						"rect" : [ 122.0, 53.0, 1140.0, 774.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -31128,6 +31142,87 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-131",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 255.487762, 634.0, 32.5, 18.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-132",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 255.487762, 664.0, 131.0, 20.0 ],
+									"text" : "send journey_recorder"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-129",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1075.217896, 634.0, 32.5, 18.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-130",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1075.217896, 664.0, 131.0, 20.0 ],
+									"text" : "send journey_recorder"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-96",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 879.0, 634.0, 32.5, 18.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-78",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 879.0, 664.0, 131.0, 20.0 ],
+									"text" : "send journey_recorder"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -33071,6 +33166,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-129", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-102", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-101", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -33305,10 +33409,28 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-130", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-129", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-46", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-132", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-131", 0 ]
 								}
 
 							}
@@ -33705,6 +33827,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-131", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-27", 0 ]
 								}
 
 							}
@@ -34214,6 +34345,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-96", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-85", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-84", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -34281,6 +34421,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-94", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-96", 0 ]
 								}
 
 							}
@@ -34401,11 +34550,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 346.0, 156.640015, 181.0, 181.0 ],
+					"patching_rect" : [ 332.5, 156.640015, 181.0, 181.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 28.201839, 234.640015, 181.0, 181.0 ],
-					"xplace" : [ 0.269603, 0.230929, 0.313802, 0.512697, 0.352476, 0.650819, 0.816564, 0.838664, 0.733692, 0.623194, 0.413249, 0.57347, 0.899437, 0.58452, 0.142531, 0.508287 ],
-					"yplace" : [ 0.797569, 0.421878, 0.620773, 0.073812, 0.250608, 0.189834, 0.34453, 0.720221, 0.510276, 0.858342, 0.372155, 0.388729, 0.576575, 0.725746, 0.57105, 0.515801 ]
+					"xplace" : [ 0.269603, 0.230929, 0.313802, 0.512697, 0.352476, 0.650819, 0.816564, 0.838664, 0.733692, 0.616022, 0.413249, 0.57347, 0.899437, 0.58452, 0.142531, 0.508287 ],
+					"yplace" : [ 0.797569, 0.421878, 0.620773, 0.073812, 0.250608, 0.189834, 0.34453, 0.720221, 0.510276, 0.863867, 0.372155, 0.388729, 0.576575, 0.725746, 0.57105, 0.515801 ]
 				}
 
 			}
@@ -39057,6 +39206,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}

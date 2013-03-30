@@ -28,6 +28,31 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 965.537354, 537.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"int" : 1,
+					"maxclass" : "gswitch",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 965.537354, 616.0, 41.0, 32.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-40",
@@ -35,7 +60,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 965.537354, 614.0, 109.0, 20.0 ],
+					"patching_rect" : [ 976.537354, 576.0, 109.0, 20.0 ],
 					"text" : "r journey_recorder"
 				}
 
@@ -88,7 +113,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -745,7 +769,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 710.0, 313.0, 167.0, 25.0 ],
-									"text" : "loaded 9919 units in 4 sound files of 40. min using 403.747559 MB RAM"
+									"text" : "loaded 4959 units in 2 sound files of 20. min using 201.873779 MB RAM"
 								}
 
 							}
@@ -30127,7 +30151,7 @@
 											}
 , 											{
 												"key" : 10,
-												"value" : [ 0.616022, 0.863867, 0.80221, 1 ]
+												"value" : [ 0.610497, 0.869392, 0.80221, 1 ]
 											}
 , 											{
 												"key" : 11,
@@ -33832,15 +33856,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-131", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-27", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-24", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -34052,6 +34067,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-53", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-131", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-54", 0 ]
 								}
 
 							}
@@ -34553,8 +34577,8 @@
 					"patching_rect" : [ 332.5, 156.640015, 181.0, 181.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 28.201839, 234.640015, 181.0, 181.0 ],
-					"xplace" : [ 0.269603, 0.230929, 0.313802, 0.512697, 0.352476, 0.650819, 0.816564, 0.838664, 0.733692, 0.616022, 0.413249, 0.57347, 0.899437, 0.58452, 0.142531, 0.508287 ],
-					"yplace" : [ 0.797569, 0.421878, 0.620773, 0.073812, 0.250608, 0.189834, 0.34453, 0.720221, 0.510276, 0.863867, 0.372155, 0.388729, 0.576575, 0.725746, 0.57105, 0.515801 ]
+					"xplace" : [ 0.269603, 0.230929, 0.313802, 0.512697, 0.352476, 0.650819, 0.816564, 0.838664, 0.733692, 0.610497, 0.413249, 0.57347, 0.899437, 0.58452, 0.142531, 0.508287 ],
+					"yplace" : [ 0.797569, 0.421878, 0.620773, 0.073812, 0.250608, 0.189834, 0.34453, 0.720221, 0.510276, 0.869392, 0.372155, 0.388729, 0.576575, 0.725746, 0.57105, 0.515801 ]
 				}
 
 			}
@@ -39211,10 +39235,28 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
+					"destination" : [ "obj-42", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}
